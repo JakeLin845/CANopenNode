@@ -1,0 +1,74 @@
+########################################
+# CANopenNode Arduino Library Keywords #
+########################################
+
+# Main Class
+CanOpenNode	KEYWORD1
+
+# Core Methods
+begin	KEYWORD2
+run	KEYWORD2
+set	KEYWORD2
+sendMsg	KEYWORD2
+writeData	KEYWORD2
+getEmcy	KEYWORD2
+setEmcyErr	KEYWORD2
+getEmcyCode	KEYWORD2
+getReceiver	KEYWORD2
+isActive	KEYWORD2
+getNMT	KEYWORD2
+getPDO	KEYWORD2
+getSDO	KEYWORD2
+disableNMT	KEYWORD2
+disableMapping	KEYWORD2
+
+# Message Class
+Message	KEYWORD1
+clearMsg	KEYWORD2
+clearData	KEYWORD2
+
+# Receiver Class
+Receiver	KEYWORD1
+read	KEYWORD2
+printBuf	KEYWORD2
+
+# PDO Class
+PDO	KEYWORD1
+set	KEYWORD2
+updateData	KEYWORD2
+getObject	KEYWORD2
+
+# SDO Class
+SDO	KEYWORD1
+setResponse	KEYWORD2
+getObject	KEYWORD2
+
+# NMT Class
+NMT	KEYWORD1
+changeMode	KEYWORD2
+getMode	KEYWORD2
+
+# EMCY Class
+EMCY	KEYWORD1
+setError	KEYWORD2
+getErrCode	KEYWORD2
+
+# Object Class
+Object	KEYWORD1
+findIndex	KEYWORD2
+printInfo	KEYWORD2
+
+# Button Class
+Button	KEYWORD1
+debounce	KEYWORD2
+
+# Constants and Enums
+RX	KEYWORD2
+TX	KEYWORD2
+BOOT	KEYWORD2
+PRE_OPERATIONAL	KEYWORD2
+OPERATIONAL	KEYWORD2
+STOPPED	KEYWORD2
+READ	KEYWORD2
+WRITE	KEYWORD2
+READ_WRITE	KEYWORD2
